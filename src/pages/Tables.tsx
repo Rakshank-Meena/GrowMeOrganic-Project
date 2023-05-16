@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import apiCalls from '../ApiCalls.tsx/Api'
 import UpperSecTable from '../components/UpperSecTable'
 import { Box } from '@mui/material'
@@ -20,7 +20,7 @@ const Tables = () => {
 
     return (
         <>
-            <Box sx={{ px: "10rem" }}>
+            <Box sx={{ px: "3rem" }}>
                 <UpperSecTable data={data} />
                 <DropDown/>
             </Box>

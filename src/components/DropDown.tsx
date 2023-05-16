@@ -1,6 +1,6 @@
 
 import Accordian from './Accordian';
-const DropDown = (props: any) => {
+const DropDown = () => {
   const section2 = [
     {
         "department": "customer_service",
@@ -22,7 +22,7 @@ const DropDown = (props: any) => {
     <div style={{ height: 'auto', width: 'fit-content',paddingLeft:"3rem",paddingRight:"3rem",overflow:"auto",background:"#e2e2e2",margin:"auto" }}>
       {section2.map((departments:any,i:number)=>{
         return(
-          <Accordian departments={departments}/>
+          <Accordian key={`acc${i}`} departments={departments}/>
         )
       })}
     </div>

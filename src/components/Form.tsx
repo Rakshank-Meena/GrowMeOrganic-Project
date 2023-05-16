@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
-import { FilledInput, TextField } from '@mui/material';
-import Box from '@mui/material/Box'
+import { TextField } from '@mui/material';
+import Box from '@mui/material/Box';
 import Buttons from './Buttons';
 import { useNavigate } from 'react-router-dom';
 const Form = () => {

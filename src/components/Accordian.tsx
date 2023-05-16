@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react';
 
-import {DropList} from './DropList';
+import { DropList } from './DropList';
 import { Checkbox } from '@mui/material';
 import RemoveIcon from '@mui/icons-material/Remove';
 
